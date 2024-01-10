@@ -1,0 +1,17 @@
+@use '../../App/mixin.scss';
+@use '../../App/vars.scss';
+
+.chart__container {
+    background-color: vars.$background_grey;
+    border: 1px solid black;
+    border-radius: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.container__chartMap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
